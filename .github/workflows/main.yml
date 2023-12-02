@@ -21,7 +21,7 @@ jobs:
           profile: minimal
           toolchain: stable
           default: true
-
+ 
       - name: Cargo Login
         uses: actions-rs/cargo@v1
         with:
